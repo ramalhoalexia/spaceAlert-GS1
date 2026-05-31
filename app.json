@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "GS1_2026",
-    "slug": "GS1_2026",
+    "name": "SpaceAlert",
+    "slug": "SpaceAlert",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +19,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
   }
 }
