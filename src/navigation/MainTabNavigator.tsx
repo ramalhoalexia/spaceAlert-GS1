@@ -15,6 +15,7 @@ const Tab = createBottomTabNavigator<MainTabParamList>();
 
 const MainTabNavigator = () => {
   const { colors } = useApp();
+  const insets = useSafeAreaInsets();
 
   const TAB_BAR_BASE_HEIGHT = 76;
 
@@ -30,9 +31,9 @@ const MainTabNavigator = () => {
           right: 0,
           backgroundColor: colors.surface,
           borderTopWidth: 0,
-          height: TAB_BAR_BASE_HEIGHT + 8,
-          padding: 20,
-          paddingInline: 20,
+          height: TAB_BAR_BASE_HEIGHT + insets.bottom,
+          paddingTop: 15,
+          paddingHorizontal: 20,
           borderTopRightRadius: 20,
           borderTopLeftRadius: 20,
           shadowColor: '#000000',
