@@ -28,9 +28,9 @@ export const SYSTEM_COMPONENTS: SystemComponent[] = [
 ];
 
 export const TECH_STACK: TechItem[] = [
-  { name: 'React Native + Expo SDK 56', role: 'Framework Mobile' },
+  { name: 'React Native + Expo SDK 54', role: 'Framework Mobile' },
   { name: 'React Navigation v7',        role: 'Navegação entre telas' },
   { name: 'AsyncStorage',               role: 'Persistência local' },
   { name: 'Context API',                role: 'Gerenciamento de estado global' },
-  { name: 'JavaScript (ES2023)',         role: 'Lógica da aplicação' },
+  { name: 'Typescript',         role: 'Lógica da aplicação' },
 ];

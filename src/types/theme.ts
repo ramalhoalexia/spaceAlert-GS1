@@ -31,7 +31,7 @@ export const COLORS_DARK: ColorScheme = {
   background: '#0D1B2A',
   surface: '#1A2B3C',
   surfaceSecondary: '#243447',
-  primary: '#0EA5E9',
+  primary: '#006DD3',
   primaryLight: '#38BDF8',
   text: '#E8F4FD',
   textSecondary: '#94B4CC',
